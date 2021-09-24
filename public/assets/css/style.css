@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+}
