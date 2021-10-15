@@ -1,6 +1,5 @@
 <?php $render('header'); ?>
 
-<h2>Cadastrando novo contato</h2>
 <form action="<?=$base;?>/novo" method="post"> 
 
     <label>Nome
@@ -15,7 +14,7 @@
         <input type="text" id="telefone" name="telefone">
     </label>
          
-    <button type="submit">Salvar</button>
+    <button class="btn btn-primary" type="submit">Salvar</button>
     
 </form>
 

@@ -1,6 +1,5 @@
 <?php $render('header'); ?>
 
-<h2>Editando contato</h2>
 <form action="<?=$base;?>/contato/<?=$contato['id'];?>/editar" method="post">
     <label>
         Nome:
@@ -17,7 +16,7 @@
         <input type="tel" name="telefone" id="telefone" value="<?=$contato['telefone'];?>">
     </label>
 
-    <input type="submit" value="Atualizar">
+    <button class="btn btn-primary" type="submit">Atualizar</button>
     
 
 </form>
