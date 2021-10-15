@@ -12,7 +12,7 @@
     </label>
 
     <label>Telefone
-        <input type="tel" id="telefone" name="telefone">
+        <input type="text" id="telefone" name="telefone">
     </label>
          
     <button type="submit">Salvar</button>
