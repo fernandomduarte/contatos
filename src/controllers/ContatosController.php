@@ -46,7 +46,7 @@ class ContatosController extends Controller {
         $email = filter_input(INPUT_POST, 'email');
         $phone = filter_input(INPUT_POST, 'telefone');
 
-        if ($name && $email && $phone) {
+        if ($name && $email) {
             Contato::update()
                 ->set('nome', ucwords($name))
                 ->set('email', strtolower($email))
