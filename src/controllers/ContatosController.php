@@ -15,7 +15,7 @@ class ContatosController extends Controller {
         $email = filter_input(INPUT_POST, 'email');
         $phone = filter_input(INPUT_POST, 'telefone');
 
-        if ($name && $email && $phone) {
+        if ($name && $email) {
             $data = Contato::select()->where('email', $email)->execute();
 
             if (count($data) == 0) {

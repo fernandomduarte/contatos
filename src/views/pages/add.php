@@ -2,19 +2,24 @@
 
 <form action="<?=$base;?>/novo" method="post"> 
 
-    <label>Nome
-        <input type="text" name="nome" id="nome">
-    </label>
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" class="form-control form-control-lg">
+    </div>
 
-    <label>E-mail
-        <input type="email" name="email" id="email">
-    </label>
+    <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" class="form-control form-control-lg">
+    </div>
 
-    <label>Telefone
-        <input type="text" id="telefone" name="telefone">
-    </label>
-         
-    <button class="btn btn-primary" type="submit">Salvar</button>
+    <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone" class="form-control form-control-lg">
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-primary btn-lg" type="submit">Salvar</button>
+    </div>
     
 </form>
 

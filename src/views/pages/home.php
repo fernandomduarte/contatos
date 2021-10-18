@@ -1,6 +1,6 @@
 <?php $render('header'); ?>
 
-<button class="btn btn-primary" type="button" onclick="location.href='<?=$base;?>/novo'">Novo contato</button><br><br/>
+<button class="btn btn-primary btn-lg" type="button" onclick="location.href='<?=$base;?>/novo'">Novo contato</button><br><br/>
 
 <table class="table table-striped table-bordered">
     <thead>
