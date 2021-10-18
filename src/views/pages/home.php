@@ -20,7 +20,7 @@
             <td><?=$contato['nome'];?></td>
             <td><?=$contato['email'];?></td>
             <td><?=$contato['telefone'];?></td>
-            <td>
+            <td class="acoes">
                 <a href="<?=$base;?>/contato/<?=$contato['id'];?>/editar">
                     <img src="<?=$base;?>/assets/images/edit1.png" alt="editar">
                 </a>
