@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="<?=$base; ?>/assets/css/login.css" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href=""><img src="assets/images/devsbook_logo.png" /></a>
-        </div>
-    </header>
     <section class="container main">
         <form method="POST">
+
+            <!--Caso ocorra algum erro ao digitar os dados, a respectiva mensagem aparecerá aqui -->
+            <?php if(!empty($flash)): ?>
+                <div class="flash"><?php echo $flash; ?></div>
+            <?php endif; ?>
+
             <input placeholder="Digite seu email" class="input" type="email" name="email" />
 
             <input placeholder="Digite sua senha" class="input" type="password" name="senha" />

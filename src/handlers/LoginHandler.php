@@ -43,11 +43,7 @@ class LoginHandler {
     public static function existirEmail($email) {
         $u = Usuario::select()->where('email', $email)->one();
 
-        if ($u) {
-            return true;
-        } else {
-            return false;
-        }  
+        return $u ? true : false;
     }
 
     public static function cadastrarUsuario($nome, $email, $senha) {

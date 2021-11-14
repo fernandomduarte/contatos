@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,13 @@
 </head>
 <body class=".container-fluid">
     <header>
-        <a href="<?=$base; ?>/sair">Sair</a>
-        <h1>Gerenciamento de contatos</h1>
+        <div class="menu">
+            <nav>
+                <a href="<?=$base; ?>">home</a>
+                <a href="<?=$base;?>/novo">cadastrar novo usuário</a>
+                <a href="<?=$base; ?>/sair">sair</a>
+            </nav>
+        </div>
+        
     </header>
     
