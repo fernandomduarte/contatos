@@ -22,7 +22,7 @@
             <td><?=$contato['telefone'];?></td>
             <td class="acoes">
                 <a href="<?=$base;?>/contato/<?=$contato['id'];?>/editar">
-                    <img src="<?=$base;?>/assets/images/edit1.png" alt="editar">
+                    <img src="<?=$base;?>/assets/images/edit1.png" alt="editar">    
                 </a>
 
                 <a href="<?=$base;?>/contato/<?=$contato['id'];?>/excluir" onclick="return confirm('Tem certeza que deseja excluir esse contato?');">

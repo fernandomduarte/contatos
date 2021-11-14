@@ -67,6 +67,5 @@ class ContatosController extends Controller {
 
         $this->redirect('/');
     }
-    
-    
+   
 }

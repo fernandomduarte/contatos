@@ -11,6 +11,7 @@
 </head>
 <body class=".container-fluid">
     <header>
+        <a href="<?=$base; ?>/sair">Sair</a>
         <h1>Gerenciamento de contatos</h1>
     </header>
     
