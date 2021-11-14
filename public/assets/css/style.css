@@ -48,6 +48,15 @@ table tr:hover td {
     background-color: #6dbcf1;
     color: rgb(12, 12, 12);
 }
+table td a img {
+    display: flex;
+    justify-content: center;
+}
+
+td img:hover {
+    background-color: #fff;
+    border-radius: 5px;
+}
 
 form {
     max-width:400px;
@@ -80,7 +89,7 @@ form .input:focus {
 form .button {
     border:0;
     padding:10px 20px;
-    background-color:#4a76a8;
+    background-image: linear-gradient(180deg, #2AA4F4 ,#007AD9);
     border-radius:10px;
     color:#FFF;
     font-size:15px;
@@ -89,16 +98,11 @@ form .button {
     box-shadow:0px 0px 3px #999;
 }
 form .button:hover {
-    background-color:#477dbb;
+    background-color: #1476b8;
 }
 form a {
     text-decoration:none;
     color:#4a76a8;
-}
-
-.form-group {
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .acoes {

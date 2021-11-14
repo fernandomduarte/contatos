@@ -46,7 +46,7 @@ form .input:focus {
 form .button {
     border:0;
     padding:10px 20px;
-    background-color:#4a76a8;
+    background-image: linear-gradient(180deg, #2AA4F4 ,#007AD9);
     border-radius:10px;
     color:#FFF;
     font-size:15px;
