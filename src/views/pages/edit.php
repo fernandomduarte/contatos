@@ -2,7 +2,7 @@
 
 <form action="<?=$base;?>/contato/<?=$contato['id'];?>/editar" method="post">
 
-    <input value="<?=$contato['nome'];?>" class="input" type="email" name="nome" />
+    <input value="<?=$contato['nome'];?>" class="input" type="text" name="nome" />
 
     <input value="<?=$contato['email'];?>" class="input" type="email" name="email" />
 
