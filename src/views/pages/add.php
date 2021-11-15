@@ -2,11 +2,11 @@
 
 <form action="<?=$base;?>/novo" method="post"> 
 
-    <input placeholder="Nome" class="input" type="email" name="nome" />
+    <input placeholder="Nome" class="input" type="nome" name="nome" />
 
-    <input placeholder="E-mail" class="input" type="password" name="email" />
+    <input placeholder="E-mail" class="input" type="email" name="email" />
 
-    <input placeholder="Telefone" class="input" type="text" name="telefone" />
+    <input placeholder="Telefone" class="input" type="text" name="telefone" id="telefone"/>
 
     <input class="button" type="submit" value="Salvar" />
     

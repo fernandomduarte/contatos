@@ -15,7 +15,7 @@
                 <div class="flash"><?php echo $flash; ?></div>
             <?php endif; ?>
 
-            <input placeholder="Digite seu email" class="input" type="email" name="email" />
+            <input placeholder="Digite seu email" class="input" type="email" name="email"/>
 
             <input placeholder="Digite sua senha" class="input" type="password" name="senha" />
 

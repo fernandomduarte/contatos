@@ -6,7 +6,7 @@
 
     <input value="<?=$contato['email'];?>" class="input" type="email" name="email" />
 
-    <input value="<?=$contato['telefone'];?>" class="input" type="text" name="telefone" />
+    <input value="<?=$contato['telefone'];?>" class="input" type="text" name="telefone" id="telefone"/>
 
     <input class="button" type="submit" value="Atualizar" />
 
