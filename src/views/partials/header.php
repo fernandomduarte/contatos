@@ -13,8 +13,9 @@
     <header>
         <div class="menu">
             <nav>
-                <a href="<?=$base; ?>">home</a>
-                <a href="<?=$base;?>/novo">novo usuário</a>
+                <a href="<?=$base; ?>/">home</a>
+                <a href="<?=$base; ?>/novo-usuario">novo usuário</a>
+                <a href="<?=$base; ?>/novo-produto">novo produto</a>
                 <a href="<?=$base; ?>/sair">sair</a>
             </nav>
         </div>

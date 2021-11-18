@@ -11,8 +11,8 @@ class ContatosController extends Controller {
     }
 
     public function addAction() {
-        $name = filter_input(INPUT_POST, 'nome');
-        $email = filter_input(INPUT_POST, 'email');
+        $name = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+        $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
         $phone = filter_input(INPUT_POST, 'telefone');
 
         if ($name && $email) {
@@ -29,7 +29,6 @@ class ContatosController extends Controller {
             }
 
         }
-
         $this->redirect('/novo');
     }
 
@@ -56,7 +55,6 @@ class ContatosController extends Controller {
 
             $this->redirect('/');
         }
-
         $this->redirect('/contato'.$args['id'].'/editar');
     }
 

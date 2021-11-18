@@ -13,10 +13,13 @@ $router->post('/cadastro', 'LoginController@cadastroAction');
 
 $router->get('/sair', 'LoginController@sair');
 
-$router->get('/novo', 'ContatosController@add');
-$router->post('/novo', 'ContatosController@addAction');
+$router->get('/novo-usuario', 'ContatosController@add');
+$router->post('/novo-usuario', 'ContatosController@addAction');
 
 $router->get('/contato/{id}/editar', 'ContatosController@edit');
 $router->post('/contato/{id}/editar', 'ContatosController@editAction');
 
 $router->get('/contato/{id}/excluir', 'ContatosController@delete');
+
+// Rotas para exemplo para um novo produto
+$router->get('/novo-produto', 'ProdutosController@add');
