@@ -3,8 +3,19 @@ namespace src\controllers;
 
 use \core\Controller;
 use \src\models\Contato;
+use \src\handlers\LoginHandler;
 
 class ContatosController extends Controller {
+
+    private $loggedUser;
+
+    public function __construct() {
+        $this->loggedUser = LoginHandler::checkLogin();
+
+        if ($this->loggedUser === false) {
+            $this->redirect('/login');
+        }
+    }
 
     public function add() {
         $this->render('add');
