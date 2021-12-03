@@ -1,2 +1,5 @@
 <?php $render('header'); ?>
-Tela de exemplo para novos produtos
+
+<section class="container main">
+    Tela de exemplo para visualizar os produtos
+</section>
