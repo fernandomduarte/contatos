@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
-    // Formata a máscara do campo input telefone conforme a distinção entre tel móvel ou fixo
+    /**
+     * Função que verifica se o primeiro dígito é 9, 
+     * caracteriza como telefone móvel 
+    **/
     $("#telefone").keydown(function() {
         var telefone = $('#telefone').val();
         if (telefone.split('')[5] == 9) {
