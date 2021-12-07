@@ -29,7 +29,7 @@ class ContatosController extends Controller {
             }
 
         }
-        $this->redirect('/novo');
+        $this->redirect('/novo-usuario');
     }
 
     public function edit($args) {
